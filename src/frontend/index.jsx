@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import ForgeReconciler, { Text, useProductContext } from '@forge/react';
+import ForgeReconciler, { Text, Heading } from '@forge/react';
 import { holidays } from './data';
 
 const checkUpcomingHolidays = () => {
@@ -32,7 +32,7 @@ const App = () => {
     <>
       {upcomingHolidays.map((holiday) => (
         <>
-          <Text>{holiday.title}</Text>  
+          <Heading size="large">{holiday.title}</Heading>
           <Text>{holiday.description}</Text>
         </>
       ))}
