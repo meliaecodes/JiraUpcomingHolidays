@@ -7,9 +7,9 @@ export const holidays = [
   },
   {
     id: 2,
-    date: "2025-05-22",
-    title: "Memorial Day",
-    description: "Our team will be out on vacation for Memorial Day. Our regular SLA will resume on May 27th.",   },
+    date: "2025-05-26",
+    title: "Memorial Day (USA)",
+    description: "Our US team will be out on vacation for Memorial Day. Our regular SLA will resume on May 27th.",   },
   {
     id: 3,
     date: "2025-07-04",
@@ -66,8 +66,8 @@ export const holidays = [
   },
   {
     id: 12,
-    date: "2025-05-20",
-    title: "Spring bank holiday",
+    date: "2025-05-26",
+    title: "Spring bank holiday (UK)",
     description: "Our UK team will be out on vacation for the spring bank holiday. Our regular SLA will resume on May 27th.",   
   },
 ];
